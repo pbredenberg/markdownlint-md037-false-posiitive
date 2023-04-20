@@ -1,0 +1,16 @@
+{
+  "name": "markdownlint-md037",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "markdownlint": "markdownlint -c .markdownlint.json '{,!(node_modules)/**/}*.md'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@silvermine/standardization": "2.1.1",
+    "markdownlint-cli": "0.33.0"
+  }
+}
